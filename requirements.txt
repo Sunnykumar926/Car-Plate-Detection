@@ -3,3 +3,4 @@ matplotlib
 streamlit
 ultralytics
 opencv-python-headless
+dill
