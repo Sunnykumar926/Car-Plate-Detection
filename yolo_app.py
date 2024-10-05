@@ -13,7 +13,7 @@ upload_file = st.file_uploader('Upload an image or video', type=['jpg','jpeg','p
 # Load YOLO model
 
 try:
-    model = YOLO('/home/sunny/Desktop/Car-Plate-Detection/license_plate_model.pt')
+    model = YOLO('license_plate_model.pt')
 except Exception as e:
     st.error(f'Error In Loading YOLO model: {e}')
 
