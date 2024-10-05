@@ -3,4 +3,3 @@ matplotlib
 streamlit
 ultralytics
 opencv-python
-PyOpenGL==3.1.7
